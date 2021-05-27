@@ -1,0 +1,25 @@
+.counter {
+  position: fixed;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  letter-spacing: 2px;
+}
+
+
+.number {
+  font-weight: bold;
+  font-size: 32px;
+  border-bottom: 1px solid #999;
+  margin: 0 0 10px 20px;
+}
+
+@media screen and(max-width: 800px) {
+  .counter {
+    right: 20px;
+  }
+        
+}

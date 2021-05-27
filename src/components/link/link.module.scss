@@ -1,0 +1,13 @@
+.link {
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    
+    a {
+        padding: 8px 0;
+        color: white;
+    }
+}

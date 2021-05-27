@@ -1,0 +1,28 @@
+
+
+.block {
+    width: calc(80vw / 50);
+    height: calc(80vw / 50);
+    margin: 1px;
+    background: #333;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and(min-width: 1200px) {
+    .block {
+        margin: 2px;
+        font-size: 13px;
+    }
+}
+@media screen and(max-width: 800px) {
+    .block {
+        width: 15px;
+        height: 15px;
+    }
+        
+}
+
